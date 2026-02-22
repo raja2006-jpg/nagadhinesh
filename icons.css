@@ -1,0 +1,11 @@
+/* =============================================
+   TOOL ICON SVG FALLBACKS (inline CSS icons)
+   These are used when SVG files are not present
+============================================= */
+
+/* If images are missing, use CSS-drawn tool icons */
+.tool-icon img {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 14px;
+    padding: 8px;
+}
